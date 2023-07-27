@@ -2,7 +2,7 @@
 
 <div align="center">
   <br/>
-  <h1 style="color: green">Ruby Enumerable</h1>
+  <h1 style="color: red">my_enumerable</h1>
   <br/>
 </div>
 
@@ -28,9 +28,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 MORSE CODE DECODER <a name="about-project"></a>
+# 📖 my_enumerable <a name="about-project"></a>
 
-The Morse Code Decoder is a Ruby-based program that allows users to convert Morse code input into its corresponding text representation. With a user-friendly interface, the program takes Morse code input and decodes it character by character, providing a seamless way to understand Morse code messages. Whether you're learning Morse code or simply curious about its hidden meanings, this project offers an efficient and intuitive decoding solution. Try it out and unravel the mysteries of Morse code with ease!
+The my_enumerable module is designed to mimic a subset of methods found in Ruby's Enumerable module. It includes implementations for all?, any?, and filter methods, which provide similar functionality as their counterparts in Enumerable.
+
+This project serves as a valuable learning opportunity to understand how to use modules in Ruby classes effectively and how to create custom functionality similar to built-in Ruby modules. Developers can use this project as a foundation for further exploration and experimentation with Ruby modules and custom data structures.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -46,11 +48,8 @@ The Morse Code Decoder is a Ruby-based program that allows users to convert Mors
 
 ### Key Features <a name="key-features"></a>
 
-- **[Morse Code to Text Conversion:]** TThe program efficiently converts Morse code input into its corresponding text representation, making it easy for users to decipher Morse code messages.
-- **[Comprehensive Morse Code Dictionary:]**  The program includes a comprehensive Morse code dictionary mapping Morse code characters to their respective text representations, ensuring accurate and reliable decoding.
-- **[Support for Spaces and Words:]** The decoder handles spaces between characters and words, allowing users to input full sentences or messages in Morse code for decoding.
-- **[Educational Tool:]** The Morse Code Decoder serves as an educational tool, making it a fun and engaging way for individuals to learn and practice Morse code.
-- **[Platform - Independent:]** The program is built in Ruby, making it platform-independent and accessible on various operating systems.
+- **Modular Code:** The project demonstrates the power of modules in Ruby by implementing the MyEnumerable module, which provides a subset of methods found in Ruby's Enumerable module. The MyList class includes the MyEnumerable module, allowing it to leverage the functionalities provided by the module. This modular approach promotes code reusability, maintainability, and separation of concerns, making it easier to extend or modify the behavior of MyList without directly altering its core implementation.
+- **Custom Iteration and Filtering:**  The MyList class utilizes the each method, which implements custom iteration to yield successive elements from the internal @list. Additionally, the MyEnumerable module implements all?, any?, and filter methods, offering custom functionalities similar to their counterparts in Ruby's Enumerable. These methods allow developers to perform operations like checking if all elements meet a certain condition (all?), verifying if any element satisfies a condition (any?), and filtering elements based on a given criteria (filter). The custom iteration and filtering capabilities provide developers with a deeper understanding of how these operations work under the hood and demonstrate how powerful abstractions can be built using Ruby modules.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -70,16 +69,16 @@ The Morse Code Decoder is a Ruby-based program that allows users to convert Mors
 
 In order to run this project you need:
 
--- Step 1: Clone the Repository
+- Step 1: Clone the Repository
 
 Open your terminal or command prompt.
 Change to the directory where you want to store the project.
-Clone the Morse Code Decoder repository from GitHub using the following command:
+Clone the my_enumerable repository from GitHub using the following command:
 ```
-git clone https://github.com/your-username/morse-code-decoder.git
+git clone https://github.com/your-username/ruby_enum_example.git
 ```
 
-Step 2: Install Ruby
+- Step 2: Install Ruby
 
 Ensure you have Ruby installed on your system. You can check by running:
 ```
@@ -93,20 +92,17 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Change into the Morse Code Decoder project directory using the command:
+Change into the my_enumerable project directory using the command:
 ```
-cd morse-code-decoder
+cd ruby_enum_example
 ```
 
 ### Usage
 
-To use the Morse Code Decoder, run the morse_code_decoder.rb script:
+To use the my_enumerable, run the script:
 ```
-ruby morse_code_decoder.rb
+ruby ruby_enum_example.rb
 ```
-
--- The program will prompt you to enter the Morse code you want to decode.
--- Input the Morse code using dots (.) for short signals and dashes (-) for long signals, separated by spaces for characters and spaces between words
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,10 +111,22 @@ ruby morse_code_decoder.rb
 
 ## 👥 Authors <a name="authors"></a>
 
+👤 **Sylvester Wamaya**
+
+- GitHub: [@githubhandle](https://github.com/sylvester-wamaya)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/sylvester-wamaya-b11a93112/)
+
 👤 **JIC Software (Jorge Camargo)**
 
 - GitHub: [@jicamargo](https://github.com/jicamargo)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jorgecamargog/?locale=en_US)
+
+👤 **Mariano Benjamin Mendez Garcia**
+
+- GitHub: [@benja27](https://github.com/benja27)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/benjamendez2699)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,10 +134,8 @@ ruby morse_code_decoder.rb
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Sound feedback]:**
-  One exciting future feature that could be added to the Morse Code Decoder is sound feedback. This feature would provide an audible representation of the Morse code input as it is being decoded. As the user enters Morse code dots and dashes, the program could play corresponding short and long beeps or tones, respectively.
+- [ ] **More methods:**
+  Additional methods from Ruby's Enumerable module in the MyEnumerable module. We will consider adding the map, count, or reduce methods, which are commonly used and offer valuable functionality to manipulate and process collections.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
